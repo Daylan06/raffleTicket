@@ -59,7 +59,7 @@ public class Main {
     }
 
     public static void checkTicket() {
-        String checkName = getInput("Please enter your name: ")
+        String checkName = getInput("Please enter your name: ");
 
         if (checkName.equals(raffleName)) {
             System.out.println("You have purchased a ticket");
@@ -83,11 +83,11 @@ public class Main {
         return "";
     }
 
-    public class checkPrimeNum {
-        public static void main(String[] args) {
+    public class checkPrimeNum() {
+        public static void (String[] args) {
 
 
-            int num = int ticketNum;
+            int num = int ticketNum ;
             boolean flag = false;
             for (int i = 2; i <= num / 2; ++i) {
                 // condition for nonprime number
